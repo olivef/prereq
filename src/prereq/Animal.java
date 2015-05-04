@@ -12,13 +12,10 @@ import org.reflections.util.ClasspathHelper;
 import org.reflections.util.ConfigurationBuilder;
 import org.reflections.util.FilterBuilder;
 
-import prereq.Dog;
-import prereq.Cat;
-
 class Animal {
 
     private String sound;
-    final static String[] ALLOWED_CLASSES = { Dog.class.getSimpleName(), Cat.class.getSimpleName() };
+    final static String[] ALLOWED_CLASSES = { "Dog", "Cat"};
 
     Animal(String input) {
         this.is_dog_or_cat_class();
