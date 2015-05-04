@@ -16,9 +16,6 @@ public class Regular {
         dog.speak();
         dog.bark();
 
-        CopyOfDog dog1 = new CopyOfDog();
-        dog1.speak();
-
     }
 
 }
